@@ -5,10 +5,9 @@ We have decided to create a fork of the dawa-autocomplete library for two reason
 - To mitigate project risk when/if SDFIdk decides to depricate DAWA in favor for gsearch (see below)
 
 ## How to use
-We will not maintain an NPM package going forward. Projects that need the extended functionality provided by this fork should integrate the libray as a module in a ~/lib og ~/util folder.
+We will not maintain an NPM package going forward. Projects that need the extended functionality provided by this fork should integrate the libray as a [git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules), see also this [Stackoverflow](https://stackoverflow.com/a/36554930)
 
 # Original SDFI readme below
-
 
 ## Please consider using Gsearch instead of DAWA Autocomplete
 https://github.com/SDFIdk/gsearch
