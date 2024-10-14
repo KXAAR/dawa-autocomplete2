@@ -1,3 +1,15 @@
+# Knowit Aarhus Dawa Autocomplete
+We have decided to create a fork of the dawa-autocomplete library for two reasons:
+
+- Extend the library with error handling when the API endpoints are down
+- To mitigate project risk when/if SDFIdk decides to depricate DAWA in favor for gsearch (see below)
+
+## How to use
+We will not maintain an NPM package going forward. Projects that need the extended functionality provided by this fork should integrate the libray as a module in a ~/lib og ~/util folder.
+
+# Original SDFI readme below
+
+
 ## Please consider using Gsearch instead of DAWA Autocomplete
 https://github.com/SDFIdk/gsearch
 
